@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    background-color: #e6e6ff;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#timer {
+    color: grey;
+}
+
+.container h1 {
+    color: #8080ff;
+    font-family: "Serif";
+}
+
+.first {
+    display: flex;
+    gap: 10px;
+}
+
+.second {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    border-style: none;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.start {
+    background-color: green;
+}
+
+.start:hover {
+    background-color: white;
+    color: green;
+}
+
+.stop {
+    background-color: red;
+}
+
+.stop:hover {
+    background-color: white;
+    color: red;
+}
+
+.reset {
+    background-color: grey;
+}
+
+.reset:hover {
+    background-color: white;
+    color: grey;
+}
+
+.short {
+    background-color: #80d4ff;
+}
+
+.short:hover {
+    background-color: white;
+    color: #80d4ff;
+}
+
+.long {
+    background-color: #e580ff;
+}
+
+.long:hover {
+    background-color: white;
+    color: #e580ff;
+}
